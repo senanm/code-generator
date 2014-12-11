@@ -1,0 +1,47 @@
+
+
+	import java.util.*;
+	public class Main {
+
+
+	public static void main(String[] args){
+	Scanner s = new Scanner(System.in);
+	Random r = new Random();
+	String[] q = {"a","b", "c","d","e","f","g","h","i","j"};
+	System.out.println("\n Kod generatoru");
+	System.out.print("Kod neçə simvol olsun?\t");
+	int b = s.nextInt();
+	int c = 0 -  b;
+	int d= b/2;
+	int e = 0 - d;
+	int f = (c-1) / 3;
+
+	if(b%2 ==0){
+	for(int x = e; x < 0; x++){
+	int alphaNum = r.nextInt(10);
+	System.out.print(q[alphaNum]);
+	int numNum = r.nextInt(10);
+	System.out.print(numNum);
+	}
+	}
+	else{
+	for(int x = f ; x < 0; x++){
+	int alphaNum = r.nextInt(10);
+	System.out.print(q[alphaNum]);
+	int numNum = r.nextInt(10);
+	System.out.print(numNum);
+	}
+	int numNum = r.nextInt(10);
+	System.out.print(numNum);
+
+
+	}
+	System.out.println("\n*************\n");
+	System.out.println("DIA-K-01 =Aliyev Mehemmed, Meherremov Senan, Quliyev Sahil= ");
+
+		
+		
+		
+	}
+	}
+
